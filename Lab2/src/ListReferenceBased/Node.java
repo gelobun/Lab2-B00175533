@@ -17,6 +17,10 @@ public class Node
     next = nextNode;
   } // end constructor
 
+  public Node() {
+	// TODO Auto-generated constructor stub
+  }
+
   public void setItem(Object newItem)
   {
     item = newItem;

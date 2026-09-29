@@ -127,7 +127,7 @@ public class ListReferenceBased implements ListInterface
   }
   
   public String listLongest() {
-	  return "";
+	  return " ";
   }
 
 } // end ListReferenceBased
