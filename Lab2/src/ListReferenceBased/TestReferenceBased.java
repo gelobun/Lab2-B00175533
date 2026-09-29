@@ -8,6 +8,8 @@ public class TestReferenceBased {
 		
 		List.displayList();
 		
+		System.out.println("Test");
+		
 		
 		Node head = null;
 		for(Node curr = head ; curr!= null; curr = curr.getNext()) {
