@@ -40,5 +40,10 @@ public class Node
   {
     return next;
   } // end getNext
+
+  public void displayList() {
+	// TODO Auto-generated method stub
+	
+  }
 } // end class Node
 

@@ -21,14 +21,27 @@ public class TestReferenceBased {
 		
 		
 		
-		Node curr = null;
-		Node prev = null;
 		
+		
+		
+		//Node prev = null;
+		
+		
+		
+		Node head = null;
+		Node curr = head ;
 		while(curr != null) {
+			List.displayList();
+			curr = curr.getNext();
+			System.out.println(" ");
+		}
+		return;
+		
+		/*while(curr != null) {
 			curr = curr.getNext();
 			prev.setNext(curr);
 			System.out.println(curr);
-		}
+		}*/
 	
 		
 		
